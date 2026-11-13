@@ -1,0 +1,1 @@
+maptextures=Data\Maps\testmap.tga

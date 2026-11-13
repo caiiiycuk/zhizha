@@ -1,0 +1,153 @@
+object Menuform: TMenuform
+  Left = 455
+  Top = 520
+  BorderStyle = bsNone
+  Caption = 'Menuform'
+  ClientHeight = 314
+  ClientWidth = 492
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefault
+  Visible = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object fon: TImage
+    Left = 0
+    Top = 0
+    Width = 492
+    Height = 314
+    Align = alClient
+    AutoSize = True
+    Stretch = True
+  end
+  object newgame: TImage
+    Left = 0
+    Top = 232
+    Width = 305
+    Height = 81
+    Center = True
+    Stretch = True
+    Transparent = True
+    OnDblClick = newgameDblClick
+    OnMouseDown = newgameMouseDown
+    OnMouseUp = newgameMouseUp
+  end
+  object Options: TImage
+    Left = 152
+    Top = 0
+    Width = 137
+    Height = 57
+    Stretch = True
+    Transparent = True
+    OnClick = OptionsClick
+    OnMouseDown = OptionsMouseDown
+    OnMouseUp = OptionsMouseUp
+  end
+  object autors: TImage
+    Left = 0
+    Top = 56
+    Width = 137
+    Height = 57
+    Stretch = True
+    Transparent = True
+    OnMouseDown = autorsMouseDown
+    OnMouseUp = autorsMouseUp
+  end
+  object records: TImage
+    Left = 0
+    Top = 0
+    Width = 137
+    Height = 57
+    Stretch = True
+    Transparent = True
+    OnClick = recordsClick
+    OnMouseDown = recordsMouseDown
+    OnMouseUp = recordsMouseUp
+  end
+  object exit: TImage
+    Left = 368
+    Top = 248
+    Width = 121
+    Height = 65
+    Stretch = True
+    Transparent = True
+    OnDblClick = exitDblClick
+    OnMouseDown = exitMouseDown
+    OnMouseUp = exitMouseUp
+  end
+  object vpered: TImage
+    Left = 224
+    Top = 128
+    Width = 169
+    Height = 57
+    Stretch = True
+    Transparent = True
+    OnClick = vperedClick
+    OnMouseDown = vperedMouseDown
+    OnMouseUp = vperedMouseUp
+  end
+  object nazad: TImage
+    Left = 56
+    Top = 128
+    Width = 169
+    Height = 57
+    Stretch = True
+    Transparent = True
+    OnClick = nazadClick
+    OnMouseDown = nazadMouseDown
+    OnMouseUp = nazadMouseUp
+  end
+  object vyborM: TImage
+    Left = 152
+    Top = 32
+    Width = 137
+    Height = 57
+    Stretch = True
+    Transparent = True
+    Visible = False
+    OnClick = vyborMClick
+    OnMouseDown = vyborMMouseDown
+    OnMouseUp = vyborMMouseUp
+  end
+  object Nastroiki: TImage
+    Left = 264
+    Top = 0
+    Width = 137
+    Height = 57
+    Stretch = True
+    Transparent = True
+    Visible = False
+    OnMouseDown = NastroikiMouseDown
+    OnMouseUp = NastroikiMouseUp
+  end
+  object VyborZ: TImage
+    Left = 224
+    Top = 16
+    Width = 137
+    Height = 57
+    Stretch = True
+    Transparent = True
+    Visible = False
+    OnClick = VyborZClick
+    OnMouseDown = VyborZMouseDown
+    OnMouseUp = VyborZMouseUp
+  end
+  object poexaly: TImage
+    Left = 104
+    Top = 88
+    Width = 305
+    Height = 105
+    Stretch = True
+    Transparent = True
+    OnClick = poexalyClick
+    OnMouseDown = poexalyMouseDown
+    OnMouseUp = poexalyMouseUp
+  end
+end
